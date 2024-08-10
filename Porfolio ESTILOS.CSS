@@ -1,0 +1,83 @@
+body {
+    background-color: #faf8cb;
+    position: relative; /* Permite la posición absoluta*/
+}
+
+h1 {
+    color: #0a0066;
+    font-family:fantasy;/*Tipo*/
+    font-size: 50px; /*Tamaño*/
+    font-weight:normal; /*Peso*/
+    font-style: oblique; /*Estilo*/
+    text-align: center;
+}
+
+.introduccion {
+    color: #000000;
+    font-size: 14px; /*Tamaño*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Tipo*/
+    font-weight:bold; /*Peso*/
+}
+
+hr {
+    border: none; /* Elimina el borde por defecto */
+    height: 1px; /* Altura */
+    background-color: #0a57a8; /* Color */
+}
+
+#fase1 {
+    color: #510e7e;
+    font-size: 18px; /*Tamaño*/
+    font-family:monospace;/*Tipo*/
+    font-weight:bolder; /*Peso*/
+    text-decoration: underline; 
+}
+
+#fase2 {
+    color: #3083e2;
+    font-size: 18px; /*Tamaño*/
+    font-family:monospace;/*Tipo*/
+    font-weight:bolder; /*Peso*/
+    text-decoration: underline;
+}
+
+.modulos2 {
+    border: 2px solid #27077e; /* Cambia el color y el grosor*/
+    padding: 5px; /* Espacio entre el borde y el contenido */
+    margin: 5px; /* Espacio alrededor del recuadro */
+}
+
+#subrayar {
+    text-decoration: underline;
+    font-size: 12px; /*Tamaño*/
+}
+
+.modulos1 {
+    color: #034294;
+}
+
+.jap img {
+    position: absolute; /* Posiciona la imagen*/
+    top: 0;
+    left: 80%; /* Centra la imagen*/
+    transform: translateX(-50%); /* Ajusta el centro*/
+    width: 15%; /* Ancho*/
+    object-fit: cover; /* Ajusta la imagen */
+    z-index: 1; /* Envía la imagen al fondo */
+    border: 1px solid #3d28b3; /* Borde sólido de 5px de grosor y color negro */
+}
+
+a {
+    color: #6b1c8a;
+}
+
+.logos img {
+    position: absolute; /* Posiciona la imagen*/
+    top: 0;
+    left: 20%; /* Centra la imagen*/
+    transform: translateX(-50%); /* Ajusta el centro*/
+    width: 15%; /* Ancho*/
+    object-fit: cover; /* Ajusta la imagen */
+    z-index: -1; /* Envía la imagen al fondo */
+    border: 1px solid #3d28b3; /* Borde sólido de 5px de grosor y color negro */
+}
